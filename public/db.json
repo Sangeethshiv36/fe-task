@@ -1,0 +1,74 @@
+[
+	{
+		"id": 102,
+		"first_name": "Henderson",
+		"last_name": "Petrillo",
+		"email": "hpetrillo1@wiley.com",
+		"gender": "Male",
+		"password": "$2a$10$XF6bmGuILZ2LltRueSMVn.Jahd/AsVxl/asF4YGl9MgcpjfnqwKtW",
+		"country": "Morocco"
+	},
+	{
+		"id": 108,
+		"first_name": "Valdemar",
+		"last_name": "O'Feeney",
+		"email": "vofeeney0@nasa.gov",
+		"gender": "Male",
+		"password": "$2a$10$E8n05BF8Cc.dOppwG1Wq9uLr8jz.emf5WZRroz9E6mfIej.yX1Ltm",
+		"country": "India"
+	},
+	{
+		"id": 91,
+		"first_name": "Devondra",
+		"last_name": "Hagger",
+		"email": "dhagger2@wiley.com",
+		"gender": "Female",
+		"password": "$2a$10$c/6jEMgMNnofSmpV8gRA1.6TTTFyL8ZjdZem2etigWfiyuUFkwWFO",
+		"country": "China"
+	},
+	{
+		"id": 167,
+		"first_name": "Sangeeth",
+		"last_name": "Sivan",
+		"email": "ssivan@test.com",
+		"gender": "Male",
+		"password": "$2a$10$1fCYDl2Yr6lPgscAgJJxU.kTBBYIzj3tus7YBSQD3LIgxZfGlGp1W",
+		"country": "India"
+	},
+	{
+		"id": 161,
+		"first_name": "John",
+		"last_name": "Doe",
+		"email": "doe@test.com",
+		"gender": "Male",
+		"password": "$2a$10$C75psY8SFxQn3x6da6ZYu.eb5Xsk0Y0.yzHVA78Ud2TUA/qsNd6SG",
+		"country": "Australia"
+	},
+	{
+		"id": 153,
+		"first_name": "Jane",
+		"last_name": "Doe",
+		"email": "janedoe@jane.com",
+		"gender": "female",
+		"password": "$2a$10$4ZVLpM7oqT1nHxSdQnbJ..sRRYMYPQyrNAp4T/NkXEOP2VfEegwoC",
+		"country": "Armenia"
+	},
+	{
+		"id": 921,
+		"first_name": "Mysterio",
+		"last_name": "Klans",
+		"email": "myster@kans.com",
+		"gender": "male",
+		"password": "$2a$10$1eGRqgb80mittoypFn5l4emhEmSXdYKE0dv47nf1ffTTHgTJg0t4a",
+		"country": "United States"
+	},
+	{
+		"id": 861,
+		"first_name": "Arthur",
+		"last_name": "Morgan",
+		"email": "ss@okok.com",
+		"gender": "male",
+		"password": "$2a$10$9cNOtdr4aUOZCttF4exVh..6TkklnFfGiG.tiIaS/1EufI9wUkk5i",
+		"country": "Belgium"
+	}
+]

@@ -9,3 +9,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// Hot Reload
+if (module.hot) {
+  module.hot.accept();
+}

@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import DispatchContext from '../DispatchContext';
 
 function ProfileLink({ userName }) {
+  const appDispatch = useContext(DispatchContext);
   return (
     <div className="profile-link">
-      <span>{userName}</span>
+      <span onClick={() => appDispatch({ type: 'TOGGLE_DROPDOWN' })}>
+        {userName}
+      </span>
     </div>
   );
 }

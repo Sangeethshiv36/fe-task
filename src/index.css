@@ -258,7 +258,7 @@ a {
   flex-direction: row;
   height: calc(100vh - 62px);
   justify-content: space-evenly;
-  background-color: red;
+  background-color: var(--bg);
 }
 
 .contacts-list {

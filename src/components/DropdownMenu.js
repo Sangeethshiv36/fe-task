@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import DropdownItem from './DropdownItem';
 import ProfilePic from './ProfilePic';
-import { ReactComponent as LogoutIcon } from '../icons/logout.svg';
 
 import StateContext from '../StateContext';
 
@@ -27,11 +26,6 @@ function DropdownMenu({ profile }) {
               ></DropdownItem>
             );
           })}
-        <DropdownItem leftIcon={<LogoutIcon />}>
-          <span>
-            <strong>Log Out</strong>
-          </span>
-        </DropdownItem>
       </div>
     </div>
   );

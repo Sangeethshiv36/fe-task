@@ -5,27 +5,10 @@ import StateContext from '../StateContext';
 import LoadingOverlay from './LoadingOverlay';
 import ProfileInfo from './ProfileInfo';
 
-function ContactsList() {
+function ContactsList({ setUserInfo }) {
   const appDispatch = useContext(DispatchContext);
   const appState = useContext(StateContext);
   const [loading, setLoading] = useState(true);
-
-  const colors = [
-    '#264653',
-    '#e76f51',
-    '#f4a261',
-    '#e9c46a',
-    '#2a9d8f',
-    '#e5989b',
-    '#06d6a0',
-    '#ffd166',
-    '#00b4d8',
-    '#3d405b',
-    '#f48c06',
-    '#dc2f02',
-    '#6930c3',
-    '#55a630'
-  ];
 
   useEffect(() => {
     async function getUsers() {
@@ -50,7 +33,7 @@ function ContactsList() {
         info: (
           <ProfileInfo
             name={name}
-            color={colors[Math.floor(Math.random() * colors.length)]}
+            color={userData.profileColor}
             email={userData.email}
           />
         ),
@@ -73,7 +56,12 @@ function ContactsList() {
 
   return (
     <div className="contacts-list">
-      <Table tableData={updatedData} headingColumns={headingColumns} />
+      <Table
+        tableData={updatedData}
+        userInfo={appState.usersList}
+        headingColumns={headingColumns}
+        setUserInfo={setUserInfo}
+      />
     </div>
   );
 }

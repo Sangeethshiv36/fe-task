@@ -20,7 +20,7 @@ function App() {
   function ourReducer(draft, action) {
     switch (action.type) {
       case 'SET_ACTIVE_USER':
-        draft.activeUser = action.data;
+        draft.activeUser.userName = action.data;
         break;
       case 'TOGGLE_DROPDOWN':
         draft.isDropdownOpen = !draft.isDropdownOpen;

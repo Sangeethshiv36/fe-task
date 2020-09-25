@@ -4,8 +4,9 @@
 		"first_name": "Henderson",
 		"last_name": "Petrillo",
 		"email": "hpetrillo1@wiley.com",
+		"company": "Amazonia online",
+		"role":"Product Manager",
 		"gender": "Male",
-		"password": "$2a$10$XF6bmGuILZ2LltRueSMVn.Jahd/AsVxl/asF4YGl9MgcpjfnqwKtW",
 		"country": "Morocco"
 	},
 	{
@@ -13,8 +14,9 @@
 		"first_name": "Valdemar",
 		"last_name": "O'Feeney",
 		"email": "vofeeney0@nasa.gov",
+		"company": "Alibab Traders",
+		"role": "Humans Resources",
 		"gender": "Male",
-		"password": "$2a$10$E8n05BF8Cc.dOppwG1Wq9uLr8jz.emf5WZRroz9E6mfIej.yX1Ltm",
 		"country": "India"
 	},
 	{
@@ -22,8 +24,9 @@
 		"first_name": "Devondra",
 		"last_name": "Hagger",
 		"email": "dhagger2@wiley.com",
+		"company": "Turag teer ltd",
+		"role": "Product Lead",
 		"gender": "Female",
-		"password": "$2a$10$c/6jEMgMNnofSmpV8gRA1.6TTTFyL8ZjdZem2etigWfiyuUFkwWFO",
 		"country": "China"
 	},
 	{
@@ -31,8 +34,9 @@
 		"first_name": "Sangeeth",
 		"last_name": "Sivan",
 		"email": "ssivan@test.com",
+		"company": "Lenovo Stoneware",
+		"role": "Software Engineer",
 		"gender": "Male",
-		"password": "$2a$10$1fCYDl2Yr6lPgscAgJJxU.kTBBYIzj3tus7YBSQD3LIgxZfGlGp1W",
 		"country": "India"
 	},
 	{
@@ -40,8 +44,9 @@
 		"first_name": "John",
 		"last_name": "Doe",
 		"email": "doe@test.com",
+		"company": "Amazon inc",
+		"role": "Test Engineer",
 		"gender": "Male",
-		"password": "$2a$10$C75psY8SFxQn3x6da6ZYu.eb5Xsk0Y0.yzHVA78Ud2TUA/qsNd6SG",
 		"country": "Australia"
 	},
 	{
@@ -49,8 +54,9 @@
 		"first_name": "Jane",
 		"last_name": "Doe",
 		"email": "janedoe@jane.com",
+		"company": "Google inc",
+		"role": "User Interaction Designer",
 		"gender": "female",
-		"password": "$2a$10$4ZVLpM7oqT1nHxSdQnbJ..sRRYMYPQyrNAp4T/NkXEOP2VfEegwoC",
 		"country": "Armenia"
 	},
 	{
@@ -58,8 +64,9 @@
 		"first_name": "Mysterio",
 		"last_name": "Klans",
 		"email": "myster@kans.com",
+		"company": "Among us",
+		"role": "Impostor",
 		"gender": "male",
-		"password": "$2a$10$1eGRqgb80mittoypFn5l4emhEmSXdYKE0dv47nf1ffTTHgTJg0t4a",
 		"country": "United States"
 	},
 	{
@@ -67,8 +74,9 @@
 		"first_name": "Arthur",
 		"last_name": "Morgan",
 		"email": "ss@okok.com",
+		"company": "Rockstar Games",
+		"role": "Outlaw Bounty Hunter",
 		"gender": "male",
-		"password": "$2a$10$9cNOtdr4aUOZCttF4exVh..6TkklnFfGiG.tiIaS/1EufI9wUkk5i",
 		"country": "Belgium"
 	}
 ]

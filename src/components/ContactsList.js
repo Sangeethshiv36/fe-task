@@ -36,6 +36,7 @@ function ContactsList() {
         setLoading(false);
       } catch (error) {
         console.log('An error occured', error);
+        setLoading(false);
       }
     }
     getUsers();

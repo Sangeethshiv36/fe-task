@@ -12,7 +12,7 @@ function DropdownItem(props) {
       <button
         className="menu-item nav-button"
         onClick={() => {
-          appDispatch({ type: 'SET_ACTIVE_USER', data: { userName } });
+          appDispatch({ type: 'SET_ACTIVE_USER', data: userName });
           appDispatch({ type: 'TOGGLE_DROPDOWN' });
         }}
       >

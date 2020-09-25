@@ -402,6 +402,7 @@ td {
 .add-ct-btn {
   margin-left: 2rem;
   height: 40px;
+  cursor: pointer;
   outline: none;
   border: none;
   border-radius: 5px;

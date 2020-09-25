@@ -24,7 +24,6 @@ function DropdownMenu({ profile }) {
     '#6930c3',
     '#55a630'
   ];
-
   return (
     <div className="dropdown">
       <div className="menu">

@@ -7,7 +7,8 @@
 		"company": "Amazonia online",
 		"role":"Product Manager",
 		"gender": "Male",
-		"country": "Morocco"
+		"country": "Morocco",
+		"profileColor":"#264653"
 	},
 	{
 		"id": 108,
@@ -17,7 +18,8 @@
 		"company": "Alibab Traders",
 		"role": "Humans Resources",
 		"gender": "Male",
-		"country": "India"
+		"country": "India",
+		"profileColor": "#e76f51"
 	},
 	{
 		"id": 91,
@@ -27,7 +29,8 @@
 		"company": "Turag teer ltd",
 		"role": "Product Lead",
 		"gender": "Female",
-		"country": "China"
+		"country": "China",
+		"profileColor": "#f4a261"
 	},
 	{
 		"id": 167,
@@ -37,7 +40,8 @@
 		"company": "Lenovo Stoneware",
 		"role": "Software Engineer",
 		"gender": "Male",
-		"country": "India"
+		"country": "India",
+		"profileColor": "#264653"
 	},
 	{
 		"id": 161,
@@ -47,7 +51,8 @@
 		"company": "Amazon inc",
 		"role": "Test Engineer",
 		"gender": "Male",
-		"country": "Australia"
+		"country": "Australia",
+		"profileColor": "#dc2f02"
 	},
 	{
 		"id": 153,
@@ -57,7 +62,8 @@
 		"company": "Google inc",
 		"role": "User Interaction Designer",
 		"gender": "female",
-		"country": "Armenia"
+		"country": "Armenia",
+		"profileColor": "#00b4d8"
 	},
 	{
 		"id": 921,
@@ -67,7 +73,8 @@
 		"company": "Among us",
 		"role": "Impostor",
 		"gender": "male",
-		"country": "United States"
+		"country": "United States",
+		"profileColor": "#e5989b"
 	},
 	{
 		"id": 861,
@@ -77,6 +84,7 @@
 		"company": "Rockstar Games",
 		"role": "Outlaw Bounty Hunter",
 		"gender": "male",
-		"country": "Belgium"
+		"country": "Belgium",
+		"profileColor": "#55a630"
 	}
 ]

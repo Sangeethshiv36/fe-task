@@ -44,17 +44,23 @@ function ContactsList() {
   const headingColumns = ['Basic Info', 'Company'];
   const tableData = appState.usersList.map((userData) => {
     const name = `${userData.first_name} ${userData.last_name}`;
-    return {
-      info: (
-        <ProfileInfo
-          name={name}
-          color={colors[Math.floor(Math.random() * colors.length)]}
-          email={userData.email}
-        />
-      ),
-      company: userData.company
-    };
+    if (appState.activeUser.userName !== name) {
+      return {
+        info: (
+          <ProfileInfo
+            name={name}
+            color={colors[Math.floor(Math.random() * colors.length)]}
+            email={userData.email}
+          />
+        ),
+        company: userData.company
+      };
+    } else {
+      return null;
+    }
   });
+
+  const updatedData = tableData.filter((data) => data);
 
   if (loading) {
     return (
@@ -66,7 +72,7 @@ function ContactsList() {
 
   return (
     <div className="contacts-list">
-      <Table tableData={tableData} headingColumns={headingColumns} />
+      <Table tableData={updatedData} headingColumns={headingColumns} />
     </div>
   );
 }

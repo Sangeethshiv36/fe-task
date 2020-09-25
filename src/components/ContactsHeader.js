@@ -5,7 +5,7 @@ function ContactsHeader() {
   return (
     <>
       <div className="top-content">
-        <div class="ct-header">
+        <div className="ct-header">
           <h1>Contacts</h1>
           <sub>Welcome to FlatCRM Contact page</sub>
         </div>

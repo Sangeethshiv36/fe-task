@@ -1,25 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import DropdownItem from './DropdownItem';
 import ProfilePic from './ProfilePic';
 import { ReactComponent as LogoutIcon } from '../icons/logout.svg';
-import LoadingOverlay from './LoadingOverlay';
+
+import StateContext from '../StateContext';
 
 function DropdownMenu({ profile }) {
-  const [usersList, setUsersList] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function getUsers() {
-      try {
-        const users = await fetch('db.json');
-        setUsersList(await users.json());
-        setLoading(false);
-      } catch (error) {
-        console.log('An error occured', error);
-      }
-    }
-    getUsers();
-  }, []);
+  const appState = useContext(StateContext);
 
   const colors = [
     '#264653',
@@ -38,19 +25,11 @@ function DropdownMenu({ profile }) {
     '#55a630'
   ];
 
-  if (loading) {
-    return (
-      <div>
-        <LoadingOverlay />
-      </div>
-    );
-  }
-
   return (
     <div className="dropdown">
       <div className="menu">
-        {usersList &&
-          usersList.map((userInfo) => {
+        {appState.usersList &&
+          appState.usersList.map((userInfo) => {
             return (
               <DropdownItem
                 leftIcon={

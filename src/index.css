@@ -176,12 +176,13 @@ a {
   top: 58px;
   width: 300px;
   transform: translateX(-45%);
-  background-color: var(--bg-accent);
+  background-color: var(--text-color);
   border: var(--border);
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow: hidden;
   transition: height var(--speed) ease;
+  z-index: 1;
 }
 
 .menu-item {
@@ -287,7 +288,7 @@ a {
   flex: 1;
   display: flex;
   margin: 2rem 2rem 2rem 0rem;
-  background-color: blue;
+  background-color: var(--bg-accent);
 }
 
 .table-container {
@@ -313,6 +314,11 @@ th,
 td {
   padding: 1rem;
   text-align: left;
+}
+
+tr:hover {
+  background-color: var(--text-color);
+  cursor: pointer;
 }
 
 .contact-info {

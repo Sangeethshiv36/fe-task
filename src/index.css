@@ -1,8 +1,9 @@
 :root {
   --bg: #f7f7f7;
   --body-bg: #f7f7f7;
-  --bg-accent: #ececec;
+  --bg-accent: #e0e0e0;
   --primary-text-color: #393e46;
+  --secondary-text-color: #8e9297;
   --text-color: #eeeeee;
   --nav-size: 60px;
   --border: 1px solid #dfdfdf;
@@ -255,6 +256,21 @@ a {
 
 .contacts-page {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contacts-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2rem 2rem 2rem 8rem;
+  height: 300px;
+  background-color: var(--bg);
+}
+
+.contacts-content {
+  display: flex;
   flex-direction: row;
   height: calc(100vh - 62px);
   justify-content: space-evenly;
@@ -264,12 +280,141 @@ a {
 .contacts-list {
   flex: 1.5;
   display: flex;
-  margin: 2rem 2rem 2rem 6rem;
-  background-color: green;
+  margin: 2rem 2rem 2rem 8rem;
+  background-color: var(--bg);
 }
 .contacts-view {
   flex: 1;
   display: flex;
   margin: 2rem 2rem 2rem 0rem;
   background-color: blue;
+}
+
+.table-container {
+  width: 80%;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: var(--bg-accent);
+  color: grey;
+}
+
+.add-contacts-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--primary-text-color);
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-info .initials {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+
+.contact-info .user-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  line-height: 0.1rem;
+}
+
+.user-info sub {
+  color: var(--secondary-text-color);
+}
+
+.user-info h3 {
+  line-height: 1rem;
+}
+
+.contacts-header .top-content {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  align-items: center;
+}
+
+.top-content .ct-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 0.6rem;
+}
+
+.top-content .sort-contacts {
+  margin-left: 2rem;
+}
+
+.search-box > input {
+  --search-input-size: calc(var(--nav-size) * 0.38);
+  height: var(--search-input-size);
+  width: 280px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  padding: 7px 16px 9px;
+  padding-right: 40px;
+  background-color: var(--bg-accent);
+  color: var(--primary-text-color);
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box .input-icon {
+  width: 18px;
+  height: 18px;
+  top: -4px;
+  left: 310px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.contacts-header .bottom-content {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.add-ct-btn {
+  margin-left: 2rem;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff8251,
+    #fd552b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #de6fe6,
+    #ff7653
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as PlusIcon } from '../icons/plus.svg';
 
-function Table({ tableData, headingColumns }) {
+function Table({ setUserInfo, userInfo, tableData, headingColumns }) {
   const data = tableData.map((row, index) => {
     let rowData = [];
     let i = 0;
@@ -13,7 +13,7 @@ function Table({ tableData, headingColumns }) {
       i++;
     }
     return (
-      <tr key={index}>
+      <tr key={index} onClick={() => setUserInfo(userInfo[index])}>
         <td className="checbox-input">
           <input type="checkbox"></input>
         </td>

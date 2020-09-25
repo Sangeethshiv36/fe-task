@@ -10,6 +10,7 @@ import ContactsPage from './components/ContactsPage';
 
 function App() {
   const initialState = {
+    usersList: [],
     activeUser: {
       userName: 'John Doe'
     },
@@ -23,6 +24,9 @@ function App() {
         break;
       case 'TOGGLE_DROPDOWN':
         draft.isDropdownOpen = !draft.isDropdownOpen;
+        break;
+      case 'SET_USERS_LIST':
+        draft.usersList = action.data;
         break;
       default:
         break;

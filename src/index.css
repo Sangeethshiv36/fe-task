@@ -288,7 +288,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 2rem 10rem 2rem 0rem;
+  margin: 2rem 2rem 2rem 0rem;
 }
 
 .contact-detail {
@@ -382,6 +382,7 @@ tr:hover {
 }
 
 .view-col .work-info {
+  line-height: 12px;
   margin-bottom: 30px;
 }
 
@@ -458,6 +459,7 @@ tr:hover {
   outline: none;
   border: none;
   border-radius: 5px;
+  padding: 0rem 1rem;
   color: var(--text-color);
   background: #e96443; /* fallback for old browsers */
   background: -webkit-linear-gradient(

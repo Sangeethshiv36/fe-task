@@ -4,7 +4,7 @@ import ContactView from './ContactView';
 import ContactsHeader from './ContactsHeader';
 
 function ContactsPage() {
-  const [userInfo, setUserInfo] = useState([]);
+  const [userInfo, setUserInfo] = useState(null);
   return (
     <div className="contacts-page">
       <div className="contacts-header">
@@ -12,7 +12,7 @@ function ContactsPage() {
       </div>
       <div className="contacts-content">
         <ContactsList setUserInfo={setUserInfo} />
-        <ContactView userInfo={userInfo && userInfo} />
+        <ContactView userInfo={userInfo} />
       </div>
     </div>
   );

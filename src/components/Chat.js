@@ -74,8 +74,10 @@ function Chat({ toUser }) {
       </div>
       <div id="chat" ref={chatLog} className="chat-log">
         {state.chatMessages.map((message, index) => {
-          if (message.userId === appState.activeUser.id) {
-            console.log('in');
+          if (
+            message.userId === appState.activeUser.id &&
+            message.sentMessage.to === appState.toChatId
+          ) {
             return (
               <div key={index} className="chat-self">
                 <div className="chat-message">

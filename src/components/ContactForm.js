@@ -3,7 +3,12 @@ import React from 'react';
 function ContactForm() {
   return (
     <div className="contacts-form">
-      <div></div>
+      <form>
+        <input type="text"></input>
+        <input type="text"></input>
+        <input type="text"></input>
+        <input type="text"></input>
+      </form>
     </div>
   );
 }

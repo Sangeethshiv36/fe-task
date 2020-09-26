@@ -288,7 +288,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin: 2rem 2rem 2rem 0rem;
+  margin: 2rem 10rem 2rem 0rem;
 }
 
 .contact-detail {
@@ -371,14 +371,18 @@ tr:hover {
 }
 
 .view-col .initials {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  font-size: 2rem;
+  margin-top: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 1.5rem;
+}
+
+.view-col .work-info {
+  margin-bottom: 30px;
 }
 
 .contact-info .user-info {
@@ -466,4 +470,35 @@ tr:hover {
     #de6fe6,
     #ff7653
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+dd {
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+dt::after {
+  content: ': ';
+}
+
+dt {
+  color: var(--secondary-text-color);
+}
+
+dd,
+dt {
+  font-size: 13px;
+}
+
+.user-contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: calc(100% - 100px);
 }

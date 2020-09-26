@@ -26,17 +26,12 @@ function Chat({ toUser }) {
     e.preventDefault();
     const time = Date.now();
     setState((draft) => {
+      console.log(toUser);
       draft.chatMessages.push({
         sentMessage: {
-          to: toUser,
-          from: appState.activeUser.id,
+          to: toUser, //102
+          from: appState.activeUser.id, //161
           message: draft.fieldValue,
-          time: time
-        },
-        recievedMessage: {
-          from: '',
-          to: appState.activeUser.id,
-          message: '',
           time: time
         },
         userName: appState.activeUser.userName,
@@ -78,6 +73,7 @@ function Chat({ toUser }) {
             message.userId === appState.activeUser.id &&
             message.sentMessage.to === appState.toChatId
           ) {
+            console.log(message.sentMessage.to, message.sentMessage.from);
             return (
               <div key={index} className="chat-self">
                 <div className="chat-message">
@@ -88,16 +84,23 @@ function Chat({ toUser }) {
               </div>
             );
           }
-
-          return (
-            <div key={index} className="chat-other">
-              <div className="chat-message">
-                <div className="chat-message-inner">
-                  {message.receievedMessage && message.recievedMessage.message}
+          if (
+            message.sentMessage.to === appState.activeUser.id &&
+            message.sentMessage.from === appState.toChatId
+          ) {
+            console.log(message.sentMessage.to, message.sentMessage.from);
+            return (
+              <div key={index} className="chat-other">
+                <div className="chat-message">
+                  <div className="chat-message-inner">
+                    {message.sentMessage && message.sentMessage.message}
+                  </div>
                 </div>
               </div>
-            </div>
-          );
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
       <form

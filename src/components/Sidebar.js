@@ -4,7 +4,7 @@ import NavItem from './NavItem';
 
 import { ReactComponent as MenuIcon } from '../icons/menu.svg';
 import { ReactComponent as HomeIcon } from '../icons/home.svg';
-import { ReactComponent as ContactsIcon } from '../icons/groups.svg';
+import { ReactComponent as ContactsIcon } from '../icons/contacts.svg';
 
 function Sidebar() {
   return (

@@ -6,6 +6,7 @@
 		"email": "hpetrillo1@wiley.com",
 		"company": "Amazonia online",
 		"role":"Product Manager",
+		"phone": 93484372923,
 		"gender": "Male",
 		"country": "Morocco",
 		"profileColor":"#264653"
@@ -17,6 +18,7 @@
 		"email": "vofeeney0@nasa.gov",
 		"company": "Alibab Traders",
 		"role": "Humans Resources",
+		"phone": 45843729202,
 		"gender": "Male",
 		"country": "India",
 		"profileColor": "#e76f51"
@@ -28,6 +30,7 @@
 		"email": "dhagger2@wiley.com",
 		"company": "Turag teer ltd",
 		"role": "Product Lead",
+		"phone": 266437292543,
 		"gender": "Female",
 		"country": "China",
 		"profileColor": "#f4a261"
@@ -39,6 +42,7 @@
 		"email": "ssivan@test.com",
 		"company": "Lenovo Stoneware",
 		"role": "Software Engineer",
+		"phone": 32452243729,
 		"gender": "Male",
 		"country": "India",
 		"profileColor": "#264653"
@@ -50,6 +54,7 @@
 		"email": "doe@test.com",
 		"company": "Amazon inc",
 		"role": "Test Engineer",
+		"phone": 1232372942,
 		"gender": "Male",
 		"country": "Australia",
 		"profileColor": "#dc2f02"
@@ -61,6 +66,7 @@
 		"email": "janedoe@jane.com",
 		"company": "Google inc",
 		"role": "User Interaction Designer",
+		"phone": 43253729202,
 		"gender": "female",
 		"country": "Armenia",
 		"profileColor": "#00b4d8"
@@ -72,6 +78,7 @@
 		"email": "myster@kans.com",
 		"company": "Among us",
 		"role": "Impostor",
+		"phone": 2353443729,
 		"gender": "male",
 		"country": "United States",
 		"profileColor": "#e5989b"
@@ -82,6 +89,7 @@
 		"last_name": "Morgan",
 		"email": "ss@okok.com",
 		"company": "Rockstar Games",
+		"phone": 53443729202,
 		"role": "Outlaw Bounty Hunter",
 		"gender": "male",
 		"country": "Belgium",

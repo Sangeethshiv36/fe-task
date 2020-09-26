@@ -1,7 +1,16 @@
 import React from 'react';
 
 function ProfileInfo({ name, email, color, role, company, view }) {
-  const initials = `${name.split(' ')[0][0]} ${name.split(' ')[1][0]}`;
+  function getInitials(name) {
+    const nameArr = name.split(' ').filter(Boolean); //return only truthy values
+    if (nameArr.length > 1) {
+      return `${nameArr[0][0]} ${nameArr[1][0]}`;
+    } else {
+      return `${nameArr[0][0]}`;
+    }
+  }
+
+  const initials = getInitials(name).toUpperCase();
   return (
     <>
       <div

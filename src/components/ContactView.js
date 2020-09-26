@@ -7,15 +7,17 @@ function ContactView({ userInfo }) {
     return (
       <div className="contacts-view">
         <div className="contact-detail">
-          {
-            <ProfileInfo
-              name={name}
-              role={userInfo.role}
-              company={userInfo.company}
-              color={userInfo.profileColor}
-              view="column"
-            />
-          }
+          <div class="user-contact-badge">
+            {
+              <ProfileInfo
+                name={name}
+                role={userInfo.role}
+                company={userInfo.company}
+                color={userInfo.profileColor}
+                view="column"
+              />
+            }
+          </div>
           <div className="user-contact-details">
             <dl>
               <dt>

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfileInfo from './ProfileInfo';
+import { ReactComponent as WeighBalanceIcon } from '../icons/scales-of-justice.svg';
 
 function ContactView({ userInfo }) {
   if (userInfo) {
@@ -7,7 +8,7 @@ function ContactView({ userInfo }) {
     return (
       <div className="contacts-view">
         <div className="contact-detail">
-          <div class="user-contact-badge">
+          <div className="user-contact-badge">
             {
               <ProfileInfo
                 name={name}
@@ -36,7 +37,7 @@ function ContactView({ userInfo }) {
                 <strong>Phone</strong>
               </dt>
               <dd>
-                <strong>{userInfo.id}</strong>
+                <strong>{userInfo.phone}</strong>
               </dd>
               <dt>
                 <strong>Company</strong>
@@ -53,7 +54,15 @@ function ContactView({ userInfo }) {
             </dl>
           </div>
         </div>
-        <div className="notices"></div>
+        <div className="notices">
+          <div className="view-icon">
+            <WeighBalanceIcon />
+          </div>
+          <div className="notices-content">
+            <h3>Tax Evasion & Payout Notice</h3>
+            <sub>Date: 21 Jul 2019 . 10:00am</sub>
+          </div>
+        </div>
       </div>
     );
   } else {

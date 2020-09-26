@@ -23,6 +23,7 @@ function DropdownMenu({ profile }) {
                 key={userInfo.id}
                 color={userInfo.profileColor}
                 userName={`${userInfo.first_name} ${userInfo.last_name}`}
+                userId={userInfo.id}
               ></DropdownItem>
             );
           })}

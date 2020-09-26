@@ -3,7 +3,7 @@ import StateContext from '../StateContext';
 import DispatchContext from '../DispatchContext';
 
 function DropdownItem(props) {
-  const { leftIcon, rightIcon, userName, children, color } = props;
+  const { leftIcon, rightIcon, userName, userId, children, color } = props;
   const appDispatch = useContext(DispatchContext);
   const appState = useContext(StateContext);
 
@@ -12,7 +12,10 @@ function DropdownItem(props) {
       <button
         className="menu-item nav-button"
         onClick={() => {
-          appDispatch({ type: 'SET_ACTIVE_USER', data: userName });
+          appDispatch({
+            type: 'SET_ACTIVE_USER',
+            data: { userName, id: userId }
+          });
           appDispatch({ type: 'TOGGLE_DROPDOWN' });
         }}
       >

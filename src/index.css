@@ -273,7 +273,6 @@ a {
 .contacts-content {
   display: flex;
   flex-direction: row;
-  height: calc(100vh - 62px);
   justify-content: space-evenly;
   background-color: var(--bg);
 }

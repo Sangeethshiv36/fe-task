@@ -45,6 +45,10 @@ function ContactsList({ setUserInfo }) {
   });
 
   const updatedData = tableData.filter((data) => data);
+  const userInfo = appState.usersList.filter(
+    (user) =>
+      appState.activeUser.userName !== `${user.first_name} ${user.last_name}`
+  );
 
   if (loading) {
     return (
@@ -58,7 +62,7 @@ function ContactsList({ setUserInfo }) {
     <div className="contacts-list">
       <Table
         tableData={updatedData}
-        userInfo={appState.usersList}
+        userInfo={userInfo}
         headingColumns={headingColumns}
         setUserInfo={setUserInfo}
       />

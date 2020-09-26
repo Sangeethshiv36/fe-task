@@ -5,7 +5,7 @@ import DispatchContext from '../DispatchContext';
 
 function ContactsHeader() {
   const triggerText = `+ Add Contacts`;
-  const apPDispatch = useContext(DispatchContext);
+  const appDispatch = useContext(DispatchContext);
 
   function onSubmit(event) {
     event.preventDefault(event);
@@ -22,17 +22,9 @@ function ContactsHeader() {
       country: target.country.value,
       profileColor: '#783927'
     };
-    apPDispatch({ type: 'CONTACT_ADDED', data: ctObj });
+    appDispatch({ type: 'CONTACT_ADDED', data: ctObj });
+    document.querySelector('#add-form').reset();
   }
-
-  // const getInitials = (name) => {
-  //   const nameArr = name.split(' ');
-  //   if (nameArr.length > 1) {
-  //     return `${nameArr[0][0]}``${nameArr[1][0]}`;
-  //   } else {
-  //     return `${nameArr[0][0]}`;
-  //   }
-  // };
 
   return (
     <>

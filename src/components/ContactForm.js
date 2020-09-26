@@ -109,6 +109,12 @@ function ContactForm({ onSubmit, mode, userInfo }) {
           <button className="add-ct-btn btn-center" type="submit">
             <strong>Submit</strong>
           </button>
+          {/* <button
+            onClick={() => closeModal()}
+            className="add-ct-btn btn-center"
+          >
+            <strong>Cancel</strong>
+          </button> */}
         </div>
       </form>
     </div>

@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###Problem Statement
 
-## Available Scripts
+Please find below the programming task. Request you to complete and share the code link [GitHub] Max in 2 days time
+Let us know if you have any questions.
+Kindly acknowledge..
 
-In the project directory, you can run:
 
-### `npm start`
+Step 1: CRUD operations with validation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. HTML Conversion - Expected pixel- Perfect output with responsiveness, can use any framework.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. Add Contacts - On click of the "Add contact" button near the search box, a form can be shown inside the model to collect the required details from the user. Eg: Full name, Email, Phone number etc.
 
-### `npm test`
+3. List Contacts - All the contacts available must be listed with their Name, Mail Id and Company name.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Edit Contact - User can edit the contact details with the help of the edit icon. An edit & chat icon can be placed anywhere suitably in the list table.
 
-### `npm run build`
+5. View Contact - On clicking the contact the user will be able to view the contact details of the person.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Need to achieve complete CRUD operations with Validation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Step 2: Client-side Message function.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+1.HTML Conversion - Expected pixel-perfect output with responsiveness, can use any framework.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. The username must be available in the top-right corner. On clicking the username, contact lists must show in the  dropdown list. The user can select the desired contact person, now the user will be logged in as the selected person from the dropdown list. Hide that contact person in the bottom list. There is no need for authentication while selecting the contact.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Then the selected contact person(one who is logged in) can send a message to another contact person on the list. Ex: Contact A can send a message to Contact B by clicking on the chat icon in the contact list. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. And also able to see the send and receive message data on the right side, create your own UI.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. The other contact person(Contact B as in the example) must also be able to send and receive message data. Create your own UI for this process.
 
-## Learn More
+Note: If you feel Step 1 will take more time, you can jump directly to the second Step using static contact data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Attachment : https://dribbble.com/shots/3223546-CRM-Dashboard-Contact-screen

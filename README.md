@@ -5,7 +5,7 @@ Let us know if you have any questions.
 Kindly acknowledge..
 
 
-Step 1: CRUD operations with validation
+**Step 1: CRUD operations with validation**
 
 1. HTML Conversion - Expected pixel- Perfect output with responsiveness, can use any framework.
 
@@ -19,7 +19,7 @@ Step 1: CRUD operations with validation
 
 6. Need to achieve complete CRUD operations with Validation
 
-Step 2: Client-side Message function.
+**Step 2: Client-side Message function.**
 
 
 1.HTML Conversion - Expected pixel-perfect output with responsiveness, can use any framework.
